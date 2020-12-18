@@ -1,37 +1,38 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-p {
-  font-size: 16px;
-  line-height: 16px;
-}
-
-.q1_clearfix {
-  width: 900px;
-  padding: 20px;
-  margin: 0 auto;
-  background-color: #eff3f4;
-}
 .q1_clearfix::after {
   content: "";
   display: block;
   clear: both;
   }
 
-.contents-box {
-  width: 230px;
-  margin-left: 20px;
-  padding: 20px;
-  background-color: #3274ae;
-  float: left;
-}
-.contents-box:first-child {
-  margin-left: 0;
-}
-.content {
-  padding: 20px;
-  border: 10px solid #022336;
-  background-color: #eaf4ff;
-}
-
-/* 回答はここに書いてね */
+  
+  .q1_clearfix {
+    width: 900px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #eff3f4;
+  }
+  
+  .contents-box {
+    width: 230px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #3274ae;
+    float: left;
+  }
+  .contents-box:first-child {
+    margin-left: 0;
+  }
+  .content {
+    padding: 20px;
+    border: 10px solid #022336;
+    background-color: #eaf4ff;
+  }
+  .text {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  
+  /* 回答はここに書いてね */
