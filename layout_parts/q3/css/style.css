@@ -5,13 +5,9 @@
   width: 100%;
   table-layout: fixed;
 }
-thead {
-  color: #fff;
-  background-color: #2244aa;
+th {
   font-size: 18px;
   line-height: 26px;
-}
-th {
   border: 1px solid #dedede;
   padding: 10px;
   color: #fff;
@@ -22,7 +18,7 @@ td {
   padding: 10px;
   text-align: center;
 }
-.even {
+tr:nth-child(2n) {
   background-color: #ecf1f2;
 }
 .border-top {
