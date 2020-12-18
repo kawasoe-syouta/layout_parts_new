@@ -18,14 +18,14 @@ p {
   clear: both;
   }
 
-.contentsbox {
+.contents-box {
   width: 230px;
   margin-left: 20px;
   padding: 20px;
   background-color: #3274ae;
   float: left;
 }
-.contentsbox:first-child {
+.contents-box:first-child {
   margin-left: 0;
 }
 .content {
