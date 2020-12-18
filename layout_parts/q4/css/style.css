@@ -1,5 +1,42 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.q4-contents {
+  padding: 20px;
+  background-color: #ECF1F2;
+}
+.q4-content {
+  margin-top: 20px;
+  width: 100%;
+  display: table
+}
+.q4-content:first-child {
+  margin-top: 0;
+}
+.box-cell {
+  padding: 20px 0;
+  text-align: center;
+  display: table-cell;
+}
+.pink-box {
+  width: 100px;
+  background-color: #fdc8b8;
+}
+.purple-box {
+  background-color: #E0ABD9; 
+}
+.aqua-box {
+  width: 100px;
+  background-color: #B6D8ED;
+}
+.yellow-box {
+  background-color: #E5D32E;
+}
+.red-box {
+  background-color: #EC8F9A;
+}
+.green-box {
+  width: 500px;
+  background-color: #8FDCAD;
+}
 /* 回答はここに書いてね */
