@@ -1,5 +1,31 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.contents {
+  width: 100%;
+  table-layout: fixed;
+}
+thead {
+  color: #fff;
+  background-color: #2244aa;
+  font-size: 18px;
+  line-height: 26px;
+}
+th {
+  border: 1px solid #dedede;
+  padding: 10px;
+  color: #fff;
+  background-color: #2244aa;
+}
+td {
+  border: 1px solid #dedede;
+  padding: 10px;
+  text-align: center;
+}
+.even {
+  background-color: #ecf1f2;
+}
+.border-top {
+  border-top: dashed #000 2px;
+}
 /* 回答はここに書いてね */
